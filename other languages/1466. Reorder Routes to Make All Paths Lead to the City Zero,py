@@ -1,0 +1,25 @@
+class Solution(object):
+    def minReorder(self, n, connections):
+        g, g2 = collections.defaultdict(list), collections.defaultdict(list)
+        for e in connections:
+            g2[e[0]].append(e[1])
+            g[e[1]].append(e[0])
+        q = collections.deque()
+        v = set()
+        v.add(0)
+        q.append(0)
+        res = 0
+        while len(q) > 0:
+            t = q.popleft()
+            for i in g[t]:
+                if i in v:
+                    continue
+                q.append(i)
+                v.add(i)
+            for i in g2[t]:
+                if i in v:
+                    continue
+                q.append(i)
+                v.add(i)
+                res += 1
+        return res   
