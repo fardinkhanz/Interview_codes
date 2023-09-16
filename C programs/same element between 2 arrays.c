@@ -13,7 +13,7 @@ int main() {
         for (int j = 0; j < size2; j++) {
             if (array1[i] == array2[j]) {
                 printf("%d ", array1[i]);
-                break; // Break to avoid duplicate printing for the same element.
+                break; 
             }
         }
     }
