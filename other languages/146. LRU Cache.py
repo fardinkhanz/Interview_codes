@@ -33,10 +33,10 @@ class LRUCache:
         if key in self.m:
             resNode=self.m[key]
             ans=resNode.val
-            del self.m[key]
+            
             self.deleteNode(resNode)
             self.addNode(resNode)
-            self.m[key]=self.head.next
+            
             return ans
         return -1    
         
