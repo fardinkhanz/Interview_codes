@@ -1,8 +1,7 @@
-# Interview_codes
+# Interview_codes 
 
 
-This repository is designed to help you prepare for technical interviews by providing a collection of code examples and basic problems in C and C++. Whether you're a beginner or an experienced programmer, these resources will strengthen your programming skills and understanding of Object-Oriented Programming (OOP) concepts.
-
+This repository consists of solutions to various LeetCode problems, providing additional practice and insights into problem-solving techniques. This repository is designed to help you prepare for technical interviews by providing a collection of code examples and basic problems in C and C++. Whether you're a beginner or an experienced programmer, these resources will strengthen your programming skills and understanding of Object-Oriented Programming (OOP) concepts.
 ## Contents
 
 ### C++ OOP Examples
@@ -17,5 +16,4 @@ This repository is designed to help you prepare for technical interviews by prov
 - This section consists of basic code examples and problem-solving solutions for two other popular programming languages: Python and Java. 
 
 
-This repository also consists of solutions to various LeetCode problems, providing additional practice and insights into problem-solving techniques.
 By exploring the examples and solving the problems in this repository, you'll gain the necessary confidence and expertise to excel in technical interviews and ace coding challenges. Remember, practice is key to success, so dive in, enjoy the learning process, and happy coding!
